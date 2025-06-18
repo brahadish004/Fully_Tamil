@@ -3,7 +3,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:http/http.dart' as http;
 
 class GeminiThirukkuralService {
-  static const _apiKey = 'AIzaSyDK3E5yniDImVd1HE80PtyNZBYN_5MvDQE';
+  static const _apiKey = 'Your API Key';
   static const _endpoint =
       'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=$_apiKey';
 
